@@ -1,0 +1,82 @@
+
+
+if u run existing app project then you click this code
+PS C:\Users\EBRAHIM> cd django_project
+PS C:\Users\EBRAHIM\django_project> venv\Scripts\activate
+(venv) PS C:\Users\EBRAHIM\django_project> cd test1
+(venv) PS C:\Users\EBRAHIM\django_project\test1> python manage.py runserver
+
+if you create app[ in same oroject folder then this code pass
+PS C:\Users\EBRAHIM> cd django_project
+PS C:\Users\EBRAHIM\django_project> venv\Scripts\activate
+(venv) PS C:\Users\EBRAHIM\django_project>  django-admin startproject test1
+(venv) PS C:\Users\EBRAHIM\django_project> cd test1
+(venv) PS C:\Users\EBRAHIM\django_project\test1> python manage.py runserver
+
+
+if u create another project then run this code
+
+mkdir amar_file_na_name
+cd amar_file_na_name
+python -m venv venv   \\\aita dia vnv file banai nile kaj korto na
+venv\Scripts\activate
+(venv) PS C:\Users\Ebrahim\amar_file_na_name> pip install django\\\\pip install django dia install kori \\jodi na kaj kore tali https://www.stanleyulili.com/powershell/solution-to-running-scripts-is-disabled-on-this-system-error-on-powershell/
+django-admin startproject ami_valo_asi
+cd ami_valo_asi
+python manage.py runserver
+
+
+cd F:\
+
+
+
+
+
+
+
+
+
+
+
+PS C:\> cd  F:\
+PS F:\> mkdir amar_file_na_name
+
+
+    Directory: F:\
+
+
+Mode                LastWriteTime         Length Name
+----                -------------         ------ ----
+d-----        07-Oct-20   1:04 AM                amar_file_na_name
+
+
+PS F:\> cd  amar_file_na_name
+PS F:\amar_file_na_name> python -m venv venv
+PS F:\amar_file_na_name> venv\Scripts\activate
+(venv) PS F:\amar_file_na_name> pip install django
+Collecting django
+  Using cached https://files.pythonhosted.org/packages/50/22/4c91847beceadbb54b5a518909ed5000bb1777168c7d6b087e8f79e5e05b/Django-3.1.2-py3-none-any.whl
+Collecting asgiref~=3.2.10 (from django)
+  Using cached https://files.pythonhosted.org/packages/d5/eb/64725b25f991010307fd18a9e0c1f0e6dff2f03622fc4bcbcdb2244f60d6/asgiref-3.2.10-py3-none-any.whl
+Collecting pytz (from django)
+  Using cached https://files.pythonhosted.org/packages/4f/a4/879454d49688e2fad93e59d7d4efda580b783c745fd2ec2a3adf87b0808d/pytz-2020.1-py2.py3-none-any.whl
+Collecting sqlparse>=0.2.2 (from django)
+  Using cached https://files.pythonhosted.org/packages/85/ee/6e821932f413a5c4b76be9c5936e313e4fc626b33f16e027866e1d60f588/sqlparse-0.3.1-py2.py3-none-any.whl
+Installing collected packages: asgiref, pytz, sqlparse, django
+Successfully installed asgiref-3.2.10 django-3.1.2 pytz-2020.1 sqlparse-0.3.1
+You are using pip version 10.0.1, however version 20.2.3 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+(venv) PS F:\amar_file_na_name> django-admin startproject ami_valo_asi
+(venv) PS F:\amar_file_na_name> cd ami_valo_asi
+(venv) PS F:\amar_file_na_name\ami_valo_asi> python manage.py runserver
+Watching for file changes with StatReloader
+Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+October 07, 2020 - 01:07:21
+Django version 3.1.2, using settings 'ami_valo_asi.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CTRL-BREAK.
